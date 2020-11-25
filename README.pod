@@ -33,9 +33,11 @@ If you don't have git installed, you can get a tarball or zip of NQP from
 github by visiting http://github.com/Raku/nqp/tree/master and clicking
 "Download".  Then unpack the tarball or zip.
 
-C<NQP> can run on three different backends: C<MoarVM>, the C<JVM>, and C<JavaScript>.
-The C<JVM> and C<JavaScript> backends are currently experimental.  The JVM backend
-requires C<JDK 1.9> (also known as C<JDK 9>) or higher.
+C<NQP> can run on four different backends: C<MoarVM>, the C<JVM>, C<JavaScript>,
+and C<.NET>.
+All backends except for C<MoarVM> are currently experimental.  The C<JVM> backend
+requires C<JDK 1.9> (also known as C<JDK 9>) or higher. The C<.NET> backend
+requires C<.NET 5>.
 
 Once you have a copy of NQP, decide which backends you want to run,
 and configure and build it as follows:
