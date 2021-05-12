@@ -2,6 +2,8 @@
 
 Create a .NET 5 backend to NQP.
 
+Expect some force-push rebases as part of the process until work is moved to Raku/nqp
+
 # Plan
 
 * Use MoarVM backend to generate .NET source implementation
@@ -15,7 +17,8 @@ As progress is made:
 * pass rakudo tests
 * pass rakudo spec tests
 
-# Specifics
+# Some specifics...
 
 * Update nqp-configure to accept dotnet as a backend
+
 
